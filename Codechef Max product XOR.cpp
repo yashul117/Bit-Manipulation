@@ -8,7 +8,7 @@ int main()
 
     while(t--)
     {
-        int i, a = 0, b = 0, c, flag = 1, msb;
+        long long int i, a = 0, b = 0, c, flag = 1, msb;
         cin >> c;
 
         for (i = 31; i >= 0;i--) // to find the msb of c
